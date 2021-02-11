@@ -1,0 +1,56 @@
+.flex {
+  display: flex;
+}
+.container {
+  max-width: 152rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.responsive {
+  display: none;
+}
+
+/* Typography */
+.xs-text {
+  font-size: 1.2rem;
+}
+.s-text {
+  font-size: 1.4rem;
+}
+.m-text {
+  font-size: 2.2rem;
+}
+.l-text {
+  font-size: 3rem;
+}
+.xl-text {
+  font-size: 5rem;
+}
+.bold-text {
+  font-weight: 700;
+}
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
+}
+
+.light-color-text {
+  color: var(--light-color);
+}
+.primary-color-text {
+  color: var(--primary-color);
+}
+
+.align-center {
+  text-align: center;
+}
+
+/* Before Background */
+
+/* Background */
+
+/* Margin */
+
+/* Animations */

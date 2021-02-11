@@ -1,0 +1,142 @@
+/* Top Navbar */
+#nav {
+  width: 100%;
+  display: flex;
+  background: var(--dark-color);
+  color: var(--white-color);
+  padding: 0.7rem 1.2rem;
+  justify-content: space-between;
+}
+
+#nav .nav__logo {
+  width: 12rem;
+}
+
+#nav .nav__link {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.nav__search {
+  height: 4rem;
+  display: flex;
+  justify-items: center;
+}
+
+.nav__search select {
+  border-radius: 7px 0 0 7px;
+  width: 5rem;
+  height: 100%;
+  border: none;
+  display: inline-block;
+}
+
+.nav__search input {
+  width: 120rem;
+  height: 100%;
+  display: inline-block;
+  border: none;
+}
+
+.nav__search button {
+  height: 100%;
+  display: inline-block;
+  width: 5rem;
+  border: none;
+  border-radius: 0 7px 7px 0;
+  background: var(--primary-color);
+}
+
+/* Small Navbar */
+#small-nav {
+  display: flex;
+  padding: 1.2rem 2.4rem;
+  background-color: var(--dark-blue-color);
+  color: var(--white-color);
+  justify-content: flex-start;
+  width: 100%;
+}
+
+#small-nav ol li {
+  display: inline-block;
+}
+#small-nav ol li a {
+  padding: 0.5rem 1rem;
+}
+#small-nav li:last-child {
+  align-items: flex-end;
+}
+.small-nav--left {
+  margin-right: 2rem;
+}
+
+.small-nav--middle {
+  width: 86%;
+}
+
+/* Categories Navbar */
+#categories-nav {
+  display: flex;
+  background: #fafafa;
+  padding: 0.5rem 2.4rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+#categories-nav ol li {
+  display: inline-block;
+  font-size: 1.3rem;
+  margin-right: 1.5rem;
+}
+
+/* Section */
+#product {
+  padding-top: 1rem;
+  width: 100%;
+}
+
+#product .container {
+  /* display: grid;
+  grid-template-columns: 2fr 5fr 1fr; */
+}
+
+.product__nav {
+  display: flex;
+}
+
+.product__nav li {
+  display: inline-block;
+}
+
+.product__nav i {
+  margin: 0 0.5rem;
+}
+
+.product__grid {
+  display: grid;
+  grid-template-columns: 10fr 13fr 5fr;
+}
+
+.product__image {
+  height: 80vh;
+  width: 100%;
+  display: inline-block;
+  background: royalblue;
+  opacity: 0.5;
+}
+
+.product__text {
+  height: 80vh;
+  width: 100%;
+  display: inline-block;
+  background: seagreen;
+  opacity: 0.5;
+}
+
+.product__price {
+  height: 80vh;
+  width: 100%;
+  display: inline-block;
+  background: tomato;
+  opacity: 0.5;
+}
