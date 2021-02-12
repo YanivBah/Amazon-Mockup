@@ -1,5 +1,6 @@
 .flex {
   display: flex;
+  align-items: baseline;
 }
 .container {
   max-width: 152rem;
@@ -17,22 +18,25 @@
 
 /* Typography */
 .xxs-text {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .xs-text {
   font-size: 1.2rem;
 }
 .s-text {
   font-size: 1.4rem;
+  line-height: 2rem;
 }
 .m-text {
-  font-size: 2.2rem;
+  font-size: 1.6rem;
 }
 .l-text {
-  font-size: 3rem;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
 }
 .xl-text {
-  font-size: 5rem;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
 }
 .bold-text {
   font-weight: 700;
@@ -42,6 +46,21 @@
 }
 .align-right {
   text-align: right;
+}
+.fw-300 {
+  font-weight: 300;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-300 {
+  font-weight: 700;
+}
+.color-gray {
+  color: var(--gray-color);
+}
+.color-red {
+  color: var(--price-color);
 }
 
 .light-color-text {
@@ -55,6 +74,20 @@
   text-align: center;
 }
 
+/* Margin & Padding */
+.mr-y-xs {
+  margin: 0.5rem 0;
+}
+.mr-y-s {
+  margin: 1rem 0;
+}
+.mr-y-m {
+  margin: 1.5rem 0;
+}
+.mr-y-l {
+  margin: 3rem 0;
+}
+
 /* Before Background */
 
 /* Background */
@@ -62,3 +95,37 @@
 /* Margin */
 
 /* Animations */
+
+/* Buttons */
+.btn {
+  padding: 0.6rem 2rem;
+  border-radius: 3px;
+  width: 100%;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+.light-btn {
+  background: linear-gradient(#f6dc9a, #f1c453);
+  border: 1px solid #9c7e31;
+  text-align: center;
+}
+.light-btn:hover {
+  background: linear-gradient(#f4d483, #eeba38);
+}
+.dark-btn {
+  background: linear-gradient(#f5c589, #ee9526);
+  border: 1px solid #9c7e31;
+  text-align: center;
+}
+.dark-btn:hover {
+  background: linear-gradient(#f4ba72, #e28818);
+}
+
+.gray-btn {
+  background: linear-gradient(#f6f7f9, #e8eaed);
+  border: 1px solid #8d9096;
+}
+.gray-btn:hover {
+  background: linear-gradient(#e7eaf0, #dadde2);
+}
