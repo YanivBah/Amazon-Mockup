@@ -9,8 +9,16 @@
 .responsive {
   display: none;
 }
+.hr-sperator {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #e7e7e7;
+}
 
 /* Typography */
+.xxs-text {
+  font-size: 1rem;
+}
 .xs-text {
   font-size: 1.2rem;
 }
