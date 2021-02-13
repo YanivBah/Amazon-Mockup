@@ -18,6 +18,11 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/utility.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 2000px)"
+      href="./css/media.css"
+    />
     <title>Amazon.com: Canon Full Frame</title>
   </head>
   <body>
@@ -27,8 +32,8 @@
       </div>
       <a href="#">
         <div class="nav__link">
-          <p class="xs-text align-right">Deliver to</p>
-          <p class="s-text bold-text align-left">
+          <p class="xs-text">Deliver to</p>
+          <p class="s-text bold-text">
             <i class="fas fa-map-marker-alt"></i> Israel
           </p>
         </div>
@@ -50,8 +55,8 @@
       </div>
 
       <a href="#">
-        <div class="nav__link">
-          <i class="fas fa-language"></i>
+        <div class="nav__link flag">
+          <img src="./img/usa.png" alt="USA Flag" />
         </div>
       </a>
 
@@ -72,9 +77,10 @@
       </a>
 
       <a href="#">
-        <div class="nav__link">
-          <i class="fas fa-shopping-cart"></i>
-          <p class="s-text bold-text">Cart</p>
+        <div class="nav__link cart">
+          <p class="s-text bold-text">
+            <i class="fas fa-shopping-cart fa-2x"></i>Cart
+          </p>
         </div>
       </a>
     </nav>
@@ -306,12 +312,12 @@
                   order soon.
                 </p>
                 <button class="btn light-btn">
-                  <img src="" alt="" />
+                  <img src="./img/button1.png" alt="" />
                   Add to cart
                 </button>
                 <div class="mr-y-s"></div>
                 <button class="btn dark-btn">
-                  <img src="" alt="" />
+                  <img src="./img/button2.png" alt="" />
                   Buy Now
                 </button>
                 <p class="mr-y-m">
@@ -377,12 +383,12 @@
                 </p>
                 <i class="fas fa-chevron-right"></i>
               </div>
-              <div class="product__price--social align-center">
+              <div class="product__price--social align-center mr-y-m">
                 <a href="#">Share</a>
-                <i class="far fa-envelope"></i>
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-pinterest"></i>
+                <i class="far fa-envelope color-gray"></i>
+                <i class="fab fa-facebook-square color-blue"></i>
+                <i class="fab fa-twitter color-twitter"></i>
+                <i class="fab fa-pinterest color-pinterest"></i>
               </div>
               <div class="product__price--box">
                 <h3 class="align-center">Other Sellers On Amazon</h3>
@@ -549,15 +555,21 @@
 
             <section class="product__related" id="related">
               <div class="hr-sperator mr-y-m"></div>
-              <h2 class="color-dark-orange l-text mr-y-s">
-                Products related to this item
-              </h2>
+              <div class="flex-space mr-y-s">
+                <h2 class="color-dark-orange l-text">
+                  Products related to this item
+                </h2>
+                <span>Page 1 of 27</span>
+              </div>
               <span class="xs-text"
                 ><a href="#" class="color-gray"
                   >Sponsored <i class="fas fa-exclamation-circle"></i></a
               ></span>
 
               <div class="flex">
+                <button class="btn-arrow">
+                  <i class="fas fa-chevron-left"></i>
+                </button>
                 <div class="product-display">
                   <img src="./img/related/1.jpg" alt="" />
                   <a href="#"
@@ -686,6 +698,9 @@
                     <img src="./img/prime.png" alt="Prime" class="prime" />
                   </div>
                 </div>
+                <button class="btn-arrow">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
               </div>
             </section>
           </div>

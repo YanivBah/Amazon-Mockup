@@ -69,6 +69,15 @@
 .color-dark-orange {
   color: var(--primary-dark-color);
 }
+.color-blue {
+  color: #3664a2;
+}
+.color-twitter {
+  color: #68add3;
+}
+.color-pinterest {
+  color: #df2209;
+}
 
 .light-color-text {
   color: var(--light-color);
@@ -167,4 +176,13 @@
   background: linear-gradient(#f6f7f9, #e8eaed);
   border: 1px solid #8d9096;
   text-align: center;
+}
+
+.btn-arrow {
+  padding: 1rem 1.3rem;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 auto;
+  border: 1px solid #8d9096;
 }
